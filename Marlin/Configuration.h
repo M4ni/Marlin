@@ -137,7 +137,7 @@
 
 // Bed thermistor: RS 484-0149; EPCOS B57550G103J - All Mendels before 1/4/13
 #define BED_BETA 3480.0
-#define BED_NTC 10000.0
+#define BED_NTC 100000.0
 
 #endif
 
@@ -146,11 +146,11 @@
 
 // Bed thermistor: Rapid 61-0446 ; Semitec 103GT-2 - All Mendel2 shipped after 1/4/13 (launch)
 // #define BED_BETA 4126.0
-// #define BED_NTC 10000.0
+// #define BED_NTC 100000.0
 
 // Bed thermistor: Farnell 1299930 ; EPCOS B57863S103F040 - All Mendel2 shipped after 29/5/14
  #define BED_BETA 3988.0
- #define BED_NTC 10000.0
+ #define BED_NTC 100000.0
 
 // Extruder thermistor: RS 198-961 100k ohm 10% DO-35 NTC thermistor - All Mendel2 shipped after 1/4/13 (launch)
 // #define E_BETA 3960.0
